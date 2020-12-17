@@ -1,0 +1,17 @@
+3 Pieces:
+
+1) "Backend"
+  Backend = everything that's not directly on the web page
+  When someone requests the page, give them the home page
+  When someone clicks submit, calculate their stats and give them a new page
+  (Optional) When someone clicks save, send data to db
+
+2) "Frontend"
+  Web page for someone to look at!
+  Fields for 6 stats, race, name and class
+  Submit button, after getting a response from backend, display data
+  (Optional) Recommend a race based on your chosen class
+  (Optional) Save button
+  (Optional) We make it look pretty
+
+3) (Optional) Database to save character

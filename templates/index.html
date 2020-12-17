@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <h1>Dungeons and Dragons Character Creator</h1>
+    <form action="/character" method="post">
+        <div>
+            <label for="name">Charcter name:</label><br>
+            <input type="text" id="name" name="name"/><br><br>
+        </div>
+        <div>
+            <label for="class">Class:</label><br>
+            <select name="class" id="class">
+                <option id="barbarian" value="barbarian">Barbarian</option>
+                <option id="bard" value="bard">Bard</option>
+                <option id="cleric" value="cleric">Cleric</option>
+                <option id="druid" value="druid">Druid</option>
+                <option id="fighter" value="fighter">Fighter</option>
+                <option id="monk" value="monk">Monk</option>
+                <option id="paladin" value="paladin">Paladin</option>
+                <option id="ranger" value="ranger">Ranger</option>
+                <option id="rogue" value="rogue">Rogue</option>
+                <option id="sorcerer" value="sorcerer">Sorcerer</option>
+                <option id="warlock" value="warlock">Warlock</option>
+                <option id="wizard" value="wizard">Wizard</option>
+            </select>
+        </div>
+        <div>
+            <label for="race">Race:</label><br>
+            <select name="race" id="race">
+                <option id="human" value="human">Human</option>
+                <option id="dragonborn" value="dragonborn">Dragonborn</option>
+                <option id="hill dwarf" value="hill dwarf">Hill Dwarf</option>
+                <option id="mountain dwarf" value="mountain dwarf">Mountain Dwarf</option>
+                <option id="drow elf" value="drow elf">Drow Elf</option>
+                <option id="high elf" value="high elf">High Elf</option>
+                <option id="wood elf" value="wood elf">Wood Elf</option>
+                <option id="forest gnome" value="forest gnome">Forest Gnome</option>
+                <option id="rock gnome" value="rock gnome">Rock Gnome</option>
+                <option id="half-elf" value="half-elf">Half-Elf</option>
+                <option id="half-orc" value="half-orc">Half-Orc</option>
+                <option id="lightfoot halfling" value="lightfoot halfling">Lightfoot Halfling</option>
+                <option id="stout halfling" value="stout halfling">Stout Halfling</option>
+                <option id="tiefling" value="tiefling">Tiefling</option>
+            </select>
+        </div>
+        <div>
+            <label for="roll1">1st Rolled Stat:</label><br>
+            <input type="text" id="roll1" name="roll1"/><br><br>
+        </div>
+        <div>
+            <label for="roll2">2nd Rolled Stat:</label><br>
+            <input type="text" id="roll2" name="roll2"/><br><br>
+        </div>
+        <div>
+            <label for="roll3">3rd Rolled Stat:</label><br>
+            <input type="text" id="roll3" name="roll3"/><br><br>
+        </div>
+        <div>
+            <label for="roll4">4th Rolled Stat:</label><br>
+            <input type="text" id="roll4" name="roll4"/><br><br>
+        </div>
+        <div>
+            <label for="roll5">5th Rolled Stat:</label><br>
+            <input type="text" id="roll5" name="roll5"/><br><br>
+        </div>
+        <div>
+            <label for="roll6">6th Rolled Stat:</label><br>
+            <input type="text" id="roll6" name="roll6"/><br><br>
+        </div>
+        <input type="submit" value="Make my character!">
+    </form>
+</html>
